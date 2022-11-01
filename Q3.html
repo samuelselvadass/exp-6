@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="flex center flex-col" >
+        <div id="container" class="container" style="width: 50vw; height: 25vw;">
+            <h1 class="text-center" style="color: blue; padding: 0 100px;">
+                Telephone Directory
+            </h1>
+            <br><br>
+            <div>
+                <label for="" class="t-blue">Name :</label>
+                <input type="text">
+
+                <label for="" class="t-blue">Mobile Number</label>
+                <input type="number" name="" id="">
+            </div>
+            
+            
+        </div>
+        <div class="button-container">
+            <button style="background-color: blue; color:white;">Add Contact</button>
+            <button style="margin: 0 10px ;">Remove First</button>
+            <button>Remove Last</button>
+        </div>
+    </div>
+    
+</body>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .flex{
+        display: flex;
+    }
+    .flex-col{
+        flex-direction: column;
+    }
+    .center{
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+    .t-blue{
+        color: blue;
+    }
+    .button-container{
+            width: 100vw;
+            position: relative;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+        }
+        button{
+            width: 80px;
+        }
+</style>
+</html>
